@@ -1,0 +1,17 @@
+.banner-container img {
+    width: 1920px;
+    display: inline;
+    margin-top: 500px;
+    padding: auto;
+    margin-left: -20px;
+    animation: fadeIn 10s ease-in-out; 
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

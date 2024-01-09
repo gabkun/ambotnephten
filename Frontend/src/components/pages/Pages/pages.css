@@ -1,0 +1,13 @@
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the team member image */
+  .team-member-image {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 50%; /* To make the image circular, assuming it's a person's photo */
+    margin-right: 20px;
+  }

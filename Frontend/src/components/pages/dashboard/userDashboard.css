@@ -1,0 +1,40 @@
+/* userDashboard.css */
+.user-dashboard {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .enrolled-classes {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+.classrooms ul{
+    display:flex;
+    
+}
+.classrooms li {
+    width: 320px;
+    height: 500px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 30px;
+    
+
+}

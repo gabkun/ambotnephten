@@ -1,0 +1,204 @@
+body, ul {
+  margin: 1;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #14d393;
+  color: #fff; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+  height: 100px;
+}
+
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.nav-links li {
+  margin-right: 20px;
+  padding: 20px;
+  display: flex; /* Display list items as flex items */
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for focus effect */
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.nav-links a:hover {
+  color: #ff6600;
+  transform: scale(1.05); /* Increase scale on hover */
+}
+
+.image-container img{
+  height: 150px;
+  margin-left:80px;
+  margin-top:  -60px;
+  display: flex;
+}
+.brand-text{
+  margin-top: -118px;
+  margin-left: 250px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease-in-out; /* Added transition for focus effect */
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  
+}
+.brand-text:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+}
+.join-button {
+  background-color: #fff; /* Background color */
+  position: flex;
+  color: #333; /* Text color */
+  border: 0px solid #0a0808; /* Border */
+  cursor: pointer; /* Cursor style */
+  height: 50px;
+  margin-left:80px;
+  margin-top:  -60px;
+}
+
+.join-button:hover {
+  background-color: #ff4500; 
+}
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: black;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+}
+
+label {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #089e1c;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-button {
+  background-color: #000000;
+  color: #dddddd;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.modal-image{
+  width: 150px;
+}
+.modal-content h1{
+  margin-top: -10px;
+}
+.modal-content h2{
+  font-weight: 1000;
+}
+.dropdown-content.show {
+  display: block;
+}
+
+/* Dropdown button arrow */
+.join-button::after {
+  content: "\25BE"; /* Unicode for down arrow */
+  margin-left: 5px;
+  position: absolute;
+  top: 50%; /* Align arrow vertically in the button */
+  right: 10px; /* Position arrow on the right side */
+  transform: translateY(-50%); /* Center arrow vertically */
+}
+
+/* Style for each dropdown item */
+.dropdown-content button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  background-color: #ff4500;
+  cursor: pointer;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-content button:hover {
+  background-color: #ff4500; 
+}
+
+/* Set dropdown items to display vertically */
+.dropdown-content {
+  /* ... */
+  position: absolute;
+  
+  left: 50;
+  width: 8%;
+  right: 6.9%;
+  
+}
+
+/* Adjust spacing between dropdown items */
+.dropdown-content button + button {
+  margin-top: -4px; /* Adjust the spacing as needed */
+}
+.dropdown-content.show {
+  display: block;
+}
